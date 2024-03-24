@@ -1,0 +1,23 @@
+
+.m{
+    padding-left:200px;
+    color:green;
+    text-shadow: .2em .2em .1em silver;
+    padding-top:30px;
+}
+.title{
+    color:red;
+}
+.table table-success table-striped{
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-bottom: 20px;
+    box-shadow: 12px 12px 20px 6px #2e6da4;
+    font-size: 15px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.a{
+    text-decoration: none;
+}

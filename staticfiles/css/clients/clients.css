@@ -1,0 +1,28 @@
+.title-cont{
+    text-align: center;
+    font-family: monospace;
+    font-style: italic;
+}
+.header{
+    font-family: monospace;
+    font-style: italic;
+}
+.f1{
+    border: 8px;
+}
+
+.container{
+    padding-top: 60px;
+}
+.sp{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 60px;
+    line-height: 2.3;
+}
+.sp1{
+    padding-left: 10px;
+    color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
