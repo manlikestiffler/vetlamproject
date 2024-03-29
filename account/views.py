@@ -13,8 +13,6 @@ from .models import UserBase
 from .tokens import account_activation_token
 from ticket.models import *
 from django.db.models import Q
-from django.core.mail import send_mail
-from vetlamproject.settings import EMAIL_HOST_USER
 
 def staff_view(request):
     q = request.GET.get('q') if request.GET.get('q') != None else''
