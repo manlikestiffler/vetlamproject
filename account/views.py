@@ -62,14 +62,12 @@ def account_register(request):
 
     if request.method == 'POST':
         registerForm = RegistrationForm(request.POST)
-        data = request.data
         if registerForm.is_valid():
             user = registerForm.save(commit=False)
             user.email = registerForm.cleaned_data['email']
             user.set_password(registerForm.cleaned_data['password'])
             user.is_active = False
             user.save()
-            return redirect('ticket:home')
     else:
         registerForm = RegistrationForm()
     return render(request, 'account/registration/register.html', {'form': registerForm})
